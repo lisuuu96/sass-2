@@ -27,6 +27,11 @@
                 background-color: $color-primary;
                 margin: $margin-none auto $baseline;
             }
+            .icon-about:hover{
+                transform: rotateX('-45');
+                transition-duration: 0.5s;
+
+            }
         }
 	}
 
@@ -192,7 +197,8 @@
             }
 
             .divider-light-dark {
-                width: $baseline * 2;
+                width: 96px;
+                height: 96px;
                 margin-left: $padding-none;
                 margin-bottom: 20px;
             }
